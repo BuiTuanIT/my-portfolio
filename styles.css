@@ -9,7 +9,7 @@ body, h1, h2, p, ul, li {
 body {
     display: flex;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #181818;
 }
 
 /* Sidebar */
@@ -33,6 +33,7 @@ body {
 .sidebar h2 {
     font-size: 20px;
     margin-bottom: 20px;
+    color: rgb(176, 176, 176);
 }
 
 .sidebar nav ul {
@@ -68,28 +69,29 @@ body {
 header {
     text-align: center;
     padding: 20px;
-    background: #333;
+    background: #1d1d1d;
     color: white;
     border-radius: 10px;
 }
 
 /* Các phần nội dung */
 section {
-    background: white;
+    background: #222222;
     padding: 20px;
     margin: 20px 0;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color: white;
 }
 
 /* Hiệu ứng hover đổi màu khi di chuột vào */
 section:hover {
-    background-color: #f0f8ff;
+    background-color: #2b2e32;
     transition: 0.3s;
 }
 
 h2 {
-    color: #333;
+    color: #ffffff;
     margin-bottom: 10px;
 }
 
