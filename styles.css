@@ -10,6 +10,9 @@ body {
     display: flex;
     font-family: Arial, sans-serif;
     background-color: #181818;
+    max-width: 1200px;
+    margin: 0 auto;
+    
 }
 
 /* Sidebar */
@@ -95,6 +98,10 @@ h2 {
     margin-bottom: 10px;
 }
 
+h3 {
+    color: white;
+}
+
 /* Dự án */
 .project {
     padding: 10px;
@@ -141,6 +148,9 @@ h2 {
     background-color: #0a0a0a;
     padding: 20px;
     color: white;
+    max-width: 950px;
+    margin: 0 auto; /* Căn giữa */
+    overflow: hidden;
 }
 
 .skills-marquee {
@@ -149,6 +159,10 @@ h2 {
     position: relative;
     width: 100%;
     padding: 10px 0;
+}
+
+.skills-marquee:hover .skills-track {
+    animation-play-state: paused; /* Tạm dừng khi hover */
 }
 
 .skills-track {
@@ -168,8 +182,11 @@ h2 {
     margin: 0 10px;
     color: white;
     font-size: 16px;
+    transition: transform 0.3s ease-in-out;
 }
-
+.skill-item:hover {
+    transform: scale(1.2); /* Phóng to khi hover */
+}
 .skill-item img {
     width: 30px;
     height: 30px;
