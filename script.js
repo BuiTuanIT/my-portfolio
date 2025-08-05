@@ -126,7 +126,7 @@ Chatbot.init({
         "avatarSrc": "https://www.svgrepo.com/show/532363/user-alt-1.svg"
       },
       "textInput": {
-        "placeholder": "Type your query",
+        "placeholder": "Nhập nội dung tin nhắn",
         "backgroundColor": "#ffffff",
         "textColor": "#1e1e1f",
         "sendButtonColor": "#fead95",
